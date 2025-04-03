@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+    <title>STRONA BŁĘDU</title>
+</head>
+<body>
+<h1 style="text-color: red">UWAGA ERROR</h1>
+<p>Kod błędu: {{ status_code }}</p>
+</body>
+</html>
